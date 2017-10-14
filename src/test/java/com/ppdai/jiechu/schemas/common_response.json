@@ -1,0 +1,20 @@
+﻿{
+	"type":"object",
+	"$schema": "http://json-schema.org/draft-03/schema",
+	"id": "http://jsonschema.net",
+	"required":true,
+	"properties":{
+		"result": {
+			"type":"number",
+			"id": "http://jsonschema.net/result",
+            "minLength":1,
+			"required":true
+		},
+		"resultMessage": {
+			"type":"string",
+			"id": "http://jsonschema.net/resultMessage",
+            "minLength":1,
+			"required":true
+		}
+	}
+}
